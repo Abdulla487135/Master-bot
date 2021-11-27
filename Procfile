@@ -1,1 +1,1 @@
-worker: python3 main.py
+worker: @NAUGHTY_PROFESSOR_BOT
