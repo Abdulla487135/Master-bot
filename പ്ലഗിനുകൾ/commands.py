@@ -1,75 +1,34 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @trojanzhex
+# (c) @MKTM45 & @NAUGHTY_PROFESSOR_BOT
+
+class Translation(object):
+    
+    START_TEXT = """<b>🙋‍♂️🔥HAI 👋  😉 I am DON LEE ROBOT 🔥
+
+നിങ്ങൾക്ക് എന്നെ നിങ്ങളുടെ ഗ്രൂപ്പിൽ ഉപയോഗിക്കാൻ കഴിയില്ല 🙂🙂 കാരണം Iam MANEGAR BOT 🔥🔥🔥 ഇവിടം വരെ വന്നതല്ലേ എന്റെ അപ്ഡേറ്റ്  ചാനലിൽ JOIN ചെയ്തേക്കൂ
+JOIN CHANNEL : @MALLUM4
+JOIN GROUP  : @MALLU_GROUP_M4
+CREATOR : @NAUGHTY_PROFESSOR_BOT
 
 
-from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from script import script
+ 
+    
+    HELP_TEXT = """😡ചില പിള്ളേര് /help ചോദിച്ചു വന്നിരിക്കുന്നു ആ സൈഡിലോട്ടു മാറി ഇരിക്കു 😤 വല്ലോം വേണോ  എങ്കിൽ ഇയാളോട് ചോദിച്ചോ  👉@NAUGHTY_PROFESSOR_BOT 👈
 
 
-@Client.on_message(filters.command(["start"]) & filters.private)
-async def start(client, message):
-    try:
-        await message.reply_text(
-            text=script.START_MSG.format(message.from_user.mention),
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton("HELP", callback_data="help_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/MALLUM4
-                    ]
-                ]
-            ),
-            reply_to_message_id=message.message_id
-        )
-    except:
-        pass
+<b><a href="https://t.me/MALLUM4_YT">MALLUM4</a></b>
+"""
+    
+    ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>DON LEE ROBOT Bot</b>
+    
+<b>➥ 😎Creator</b> : <b>@MKTM45</b> 
 
-@Client.on_message(filters.command(["help"]) & filters.private)
-async def help(client, message):നിങ്ങൾക്ക് എന്നെ നിങ്ങളുടെ ഗ്രൂപ്പിൽ ഉപയോഗിക്കാൻ കഴിയില്ല 🙂🙂
-    try:
-        (
-                [
-                    [
-                        InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "⭕️ SUPPORT ⭕️", url="https://t.me/MALLU_GROUP_M4
-                    ]
-                ]
-            ),
-            reply_to_message_id=message.message_id
-        )
-    except:
-        pass
+<b>➥ 👨‍💻Editor</b> : <b>@NAUGHTY_PROFESSOR_BOT</b>
 
-@Client.on_message(filters.command(["about"]) & filters.private)
-async def about(client, message):
-    try:
-        await message.reply_text(
-            text=script.ABOUT_MSG,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton("BACK", callback_data="help_data"),
-                        InlineKeyboardButton("START", callback_data="start_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "SOURCE CODE", url="@MALLUM4 
-                    ]
-                ]
-            ),
-            reply_to_message_id=message.message_id
-        )
-    except:
-        pass
+<b>➥ 🗣️Language</b> : <b>Python3</b>
+
+<b>➥ 📚Library</b> : <b><ia href=""കിട്ടും കാത്തിരി 
+
+<b>➥ 📖Source Code</b> : <b><a href="😠😠😠😡💥
+"""
