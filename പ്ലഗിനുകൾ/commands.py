@@ -22,7 +22,7 @@ async def start(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/Mo_Tech_YT")
+                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/MALLUM4
                     ]
                 ]
             ),
@@ -32,12 +32,9 @@ async def start(client, message):
         pass
 
 @Client.on_message(filters.command(["help"]) & filters.private)
-async def help(client, message):
+async def help(client, message):നിങ്ങൾക്ക് എന്നെ നിങ്ങളുടെ ഗ്രൂപ്പിൽ ഉപയോഗിക്കാൻ കഴിയില്ല 🙂🙂
     try:
-        await message.reply_text(
-            text=script.HELP_MSG,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
+        (
                 [
                     [
                         InlineKeyboardButton("BACK", callback_data="start_data"),
@@ -45,7 +42,7 @@ async def help(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ SUPPORT ⭕️", url="https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ")
+                            "⭕️ SUPPORT ⭕️", url="https://t.me/MALLU_GROUP_M4
                     ]
                 ]
             ),
@@ -68,7 +65,7 @@ async def about(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE", url="https://github.com/MRK-YT/Auto-Filter-Bot")
+                            "SOURCE CODE", url="@MALLUM4 
                     ]
                 ]
             ),
