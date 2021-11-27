@@ -41,24 +41,17 @@
 ## Deploy
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MRK-YT/Auto-Filter-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abdulla487135/Master-bot
 
 
 
 ## Configs
 
-APP ID & API HASH :- [Click Here](https://telegram.dog/UseTGSBot) or [Click Here](https://my.telegram.org/auth)
+APP ID & API HASH :- @MALLUM4
+MAINCHANNEL ID    :- @NAUGHTY_PROFESSOR_BOT
 
-MAINCHANNEL ID    :- [Click Here](https://telegram.dog/ChannelIDHEXbot)
-
-TG BOT TOKEN      :- [Click Here](https://telegram.dog/BotFather) 
-
-TG USER SESSION   :- Click👈 ഈ ക്ലിക്ൽ ബട്ടൺ വർക്കിംഗ്‌ അല്ല  || ഈ വീഡിയോ കണ്ട് User Session എങ്ങനെ എടുക്കാമെന്ന് കാണുക [Video Link](https://youtu.be/WUN_12-dYOM)
-
-Use This Link     :- [Click Here](https://repl.it/@prgofficial/String-Gen) 👈 ഇത് വർക്കിംഗ്‌ ആണ്. 😁
-
+TG BOT TOKEN      :- @NAUGHTY_PROFESSOR_BOT
+TG USER SESSION   :- @NAUGHTY_PROFESSOR_BOT
+Use This Link     :- @MALLUM4
 ## You can check the video tutorial on how to deploy
 
-[Click here to see tutorial video](https://youtu.be/d_oX4b7ucWM)
-
-Thanks to [MoTectYT](https://telegram.dog/MO_TECH_YT) and [MRK YT](https://telegram.dog/MRK_YT) for the video
